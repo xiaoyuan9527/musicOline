@@ -1,0 +1,72 @@
+/* 版心 */
+.content{
+
+}
+
+/* 清除浮动 */
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+}
+/* 设置本文溢出 */
+.textOverflow{
+    width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* 默认文字大小 */
+.fsz{
+    font-size: ;
+}
+
+/* 实现图片轮播 */
+#banner{
+    overflow: hidden;
+}
+/* 利用img实现轮播效果 */
+#banner .img{
+    width: 2000px;
+    animation: banner infinite 12s linear;
+}
+#banner .img:hover{
+    animation-play-state: paused;
+}
+/* 改img为快 且实现点击 */
+#banner .img>img{
+    display: block;
+    float: left;
+    margin-left: 20px;
+    opacity: 0.8;
+}
+#banner .img>img:hover{
+    transform: scale(1.2,1.2);
+    opacity: 1;
+}
+
+/* 设置动画 */
+@keyframes banner {
+    0%{
+
+    }
+    100%{
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
