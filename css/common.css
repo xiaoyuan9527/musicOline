@@ -1,6 +1,7 @@
 /* 版心 */
 .content{
-
+    width: 1200px;
+    margin: auto;    
 }
 
 /* 清除浮动 */
@@ -20,7 +21,7 @@
 
 /* 默认文字大小 */
 .fsz{
-    font-size: ;
+    font-size: 14px;
 }
 
 /* 实现图片轮播 */
